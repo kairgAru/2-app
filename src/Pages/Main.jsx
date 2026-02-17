@@ -3,7 +3,7 @@ import React from "react";
 
 function Main() {
  return (
-   <main style={{ padding: '20px', textAlign: 'center' }}>
+   <main style={{ padding: '20px', textAlign: 'center', background:'white' }}>
     <div style={{display:'flex',alignItems:'center', justifyContent:'space-between', margin:'80px 100px', gap:'80px'}}>
         <div style={{textAlign:'start'}}>
             <h1 style={{fontSize:'58px'}}>Your everyday <br /> tasks, automated.</h1>
@@ -45,8 +45,8 @@ function Main() {
         </div>
     </div>
 
-    <div>
-        <h1 style={{textAlign:'start', marginTop:'80px'}}> We will take care of everything, <br />so you can get back to relaxing.</h1>
+    <div style={{background:'#F7F9FA', marginTop:'50px'}}>
+        <h1 style={{textAlign:'start', marginTop:'80px', padding:'50px'}}> We will take care of everything, <br />so you can get back to relaxing.</h1>
         <div style={{ display:'flex', flexDirection:'row' , justifyContent:'center', alignItems:'center', gap:'140px'}}>
             <div style={{ }}>
                 <div style={{display:'flex', flexDirection:'colum' , alignItems:'center' }}>

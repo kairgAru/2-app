@@ -5,7 +5,7 @@ import React from "react";
 
 function Header() {
  return (
-   <header style={{ display:"flex",  backgroundColor: '#f9faf9', padding: '10px', color: 'white', justifyContent: "center", alignItems:'center', textAlign: 'center' }}>
+   <header style={{ display:"flex",  backgroundColor: 'white', padding: '10px', color: 'white', justifyContent: "center", alignItems:'center', textAlign: 'center' }}>
     <img style={{margin: '19px 36px' }}src="/whilr.svg" alt="Whirl logo" />
      
     
