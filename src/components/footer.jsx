@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
  return (
-   <footer style={{  backgroundColor: 'white', padding: '10px',  color: '#1F1F1F', textAlign: 'center', marginTop: '20px', margin:'10px 80px' }}>
+   <footer style={{  backgroundColor: 'white', padding: '20px',  color: '#1F1F1F', textAlign: 'center' }}>
      <div style={{justifyContent:'space-around',display:'flex', marginBottom:'100px'}}>
      <div  style={{marginRight: '280px'}} >
         <img style={{margin: '19px 36px' }}src="/whilr.svg" alt="Whirl logo" /> 
@@ -43,7 +43,7 @@ function Footer() {
         <p>Newsletter</p>
         <p style={{textAlign:'left'}}>Sign up for the latest <br />news, company insights, <br /> and Whirl updates.</p>
         <div>
-            <input style={{border:'1px solid #cdd2d6', color:'#626A72'}} type="Your email" />
+            <input style={{border:'1px solid #cdd2d6', color:'#626A72' ,background:'white', padding:'5px', border:'none', borderBottom:'1px solid #ccc'}} type="Your email"  placeholder="Your email" />
             <button style={{background:'white'}}>\</button>
         </div>
         

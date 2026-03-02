@@ -6,15 +6,15 @@ function Main() {
    <main style={{ padding: '20px', textAlign: 'center', background:'white' }}>
     <div style={{display:'flex',alignItems:'center', justifyContent:'space-between', margin:'80px 100px', gap:'80px'}}>
         <div style={{textAlign:'start'}}>
-            <h1 style={{fontSize:'58px'}}>Your everyday <br /> tasks, automated.</h1>
-            <p>Whirl lets you design and streamline <br /> your everyday tasks and workflows <br /> in just a few clicks.</p>
-            <button style={{background:'#0070A0', marginRight:'24px', color:'white'}}>Book a demo</button>
-            <button style={{color:'#0070A0'}}>Learn more</button>
+            <h1 style={{fontSize:'58px', color:'#1F1F1F'}}>Your everyday <br /> tasks, automated.</h1>
+            <p style={{fontSize:'20px', color:'#1F1F1F'}}>Whirl lets you design and streamline <br /> your everyday tasks and workflows <br /> in just a few clicks.</p>
+            <button style={{background:'#0070A0', marginRight:'24px', color:'white', borderRadius:'0px'}}>Book a demo</button>
+            <button style={{color:'#0070A0', background:'white', borderRadius:'0px'}}>Learn more </button>
         </div>
         <img style={{ }}src="/desk.png" alt="foto" height={'400px'} width={'400px'} />
     </div>
     <div>
-        <p style={{fontSize:'24px', textAlign:'center'}}>Trusted by 50,000+ companies</p>
+        <p style={{fontSize:'24px', textAlign:'center', color:'#1F1F1F'}}>Trusted by 50,000+ companies</p>
         <div style={{display:'flex', alignItems:'center', justifyContent:'center', gap:'60px', marginBottom:'159px'}}>
             <img src="/focus.svg" alt="logo" />
             <img src="/now.svg" alt="logo" />
@@ -23,8 +23,8 @@ function Main() {
         </div>
     </div>
 
-    <div style={{ display:'flex', justifyContent:'space-between'}}>
-        <div style={{background:'#FAEA73', textAlign:'start', padding:'32px'}}>
+    <div style={{ display:'flex', justifyContent:'space-around', color:'#1F1F1F'}}>
+        <div style={{background:'#FAEA73', textAlign:'start', padding:'32px', color:'#1F1F1F'}}>
             <img src="/m.svg" alt="logo" />
             <p style={{fontSize:'25px'}}>Fast. Really fast.</p>
             <p>Ut enim ad minim veniam, quis nostrud <br /> exercitation ullamco laboris nisi ut <br /> aliquip ex ea commodo consequat.</p>
@@ -45,12 +45,13 @@ function Main() {
         </div>
     </div>
 
-    <div style={{background:'#F7F9FA', marginTop:'50px'}}>
+    <div style={{background:'#F7F9FA', marginTop:'10px', color:'#1F1F1F'}}>
         <h1 style={{textAlign:'start', marginTop:'80px', padding:'50px'}}> We will take care of everything, <br />so you can get back to relaxing.</h1>
         <div style={{ display:'flex', flexDirection:'row' , justifyContent:'center', alignItems:'center', gap:'140px'}}>
             <div style={{ }}>
                 <div style={{display:'flex', flexDirection:'colum' , alignItems:'center' }}>
                 <img src="/1.svg" alt="logo" width={'32px'} height={'32px'} />
+                
                 <div>
                     <p>Anti-loss technology</p>
                     <p>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua.</p>
@@ -78,7 +79,7 @@ function Main() {
         </div>
     </div>
 
-    <div style={{ display:'flex', justifyContent:'space-around', padding:'80px 55px'}}>
+    <div style={{ display:'flex', justifyContent:'space-around', padding:'80px 55px', color:'#1F1F1F'}}>
         <h2 style={{ textAlign:'start'}}>What's Whirl <br />all about?</h2>
         <div style={{ display:'flex', justifyContent:'center', gap:'31px'}}>
             <div style={{ textAlign:'start'}}>
@@ -116,7 +117,7 @@ function Main() {
 
     </div>
 
-    <div style={{ margin:'120px 100px' }}>
+    <div style={{ margin:'120px 100px', color:'#1F1F1F' }}>
         <div style={{ textAlign:'start', marginBottom:'68px'}}>
             <h2 >Your tasks, automated.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br /> tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -150,10 +151,10 @@ function Main() {
         </div>
     </div>
 
-    <div style={{ padding:'80px', background:'#F7F9FA' }}>
+    <div style={{ padding:'80px', background:'#F7F9FA' , color:'#1F1F1F'}}>
         <div style={{ display:'flex' , alignItems:'center', justifyContent:'space-between'}}>
             <p style={{ fontSize:'42px' }}>Get smarter, with our blog.</p>
-            <button style={{color:'#0070A0'  }}>See All Posts</button>
+            <button style={{color:'#0070A0', background:'#F7F9FA'  }}>See All Posts</button>
         </div>
         <div style={{display:'flex', gap:'30px'}}>
             <div style={{ textAlign:'start'}}>
@@ -200,13 +201,13 @@ function Main() {
 
     </div>
     <div>
-        <div style={{background:'#E6F7FF', margin:'80px 100px', padding:'55px', textAlign:'start'}}>
+        <div style={{background:'#E6F7FF', margin:'80px 100px', padding:'55px', textAlign:'start' , color:'#1F1F1F'}}>
             <h1>Get started with Whirl</h1>
             <p style={{fontSize:'18px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br /> sed do eiusmod tempor incididunt.</p>
-            <button style={{background:'#0070A0', color:'white'}}>Book a demo</button>
+            <button style={{background:'#0070A0', color:'white',borderRadius:'0px'}}>Book a demo</button>
             <div style={{ display:'flex', gap: '32px'}}>
-                <p>✔ Free 30-day trial</p>
-                <p>✔ No credit-card required</p>
+                <p style={{color:'#626A72'}}>✔ Free 30-day trial</p>
+                <p style={{color:'#626A72'}}>✔ No credit-card required</p>
             </div>
         </div>
     </div>
